@@ -77,14 +77,14 @@ const Wishlist = (props) => {
               {Wishs?.map((wish, id) => {
                 return (
                   <>
-                    <div class="col cursor-pointer">
-                      <div class="card shadow-sm"  style={{ width: "16rem" }}>
+                    <div class="col cursor-pointer mx-auto">
+                      <div class="card shadow-sm" >
                         <div className="mb-1 p-2 bd-placeholder-img card-img-top">
                           <img
-                            className="px-3 mx-3 img-fluid bd-placeholder-img card-img-top "
+                            className="px-5  img-fluid bd-placeholder-img card-img-top "
                             src={wish?.image}
                             alt={wish?.title}
-                            style={{ height: "13rem", width: "13rem" }}
+                            style={{ height: "10rem", width: "40rem" }}
                           />
                         </div>
                         <p
