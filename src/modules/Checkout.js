@@ -17,7 +17,7 @@ const Checkout = (props) => {
         <div class="bg-body-tertiary border rounded-3">
           <div className=" bg-white py-10 row">
             <div className="col-md-6 rounded">
-              <div className="rounder border-1 px-5 py-5">
+              <div className="rounder border-1 mx-auto py-5">
                 <h4 className="mb-3">Billing address</h4>
                 <form className="needs-validation w-200" novalidate="">
                   <div className="row g-3">
@@ -188,13 +188,10 @@ const Checkout = (props) => {
               </div>
             </div>
             <div class="bg-body-tertiary border rounded-3 col-md-6">
-              <div className="container px-5 py-5">
+              <div className="container py-5">
                 <div
-                  className="py-10"
-                  style={{
-                    marginLeft: "5rem",
-                    paddingRight: "2rem",
-                  }}
+                  className="py-10 mx-auto"
+             
                 >
                   <div className=" order-md-last">
                     <h4 className="d-flex justify-content-between align-items-center mb-3">
