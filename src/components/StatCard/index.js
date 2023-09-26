@@ -16,9 +16,9 @@ const Stats = () => {
          
        
         <div class="card-footer text-body-secondary">
-          {/* <div className="d-flex  text-center">
-            <div className="col-md-2">
-              <div className="border-2 border-gray-200 px-5 py-5 rounded-lg">
+          <div className="d-flex  text-center">
+            <div className="col">
+              <div className="border-2 border-gray-200  py-5 rounded-lg">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -38,8 +38,8 @@ const Stats = () => {
                 <p className="leading-relaxed">Downloads</p>
               </div>
             </div>
-            <div className="col-md-2">
-              <div className="border-2 border-gray-200 px-5 py-5 rounded-lg">
+            <div className="col">
+              <div className="border-2 border-gray-200 py-5 rounded-lg">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -60,8 +60,8 @@ const Stats = () => {
                 <p className="leading-relaxed">Users</p>
               </div>
             </div>
-            <div className="col-md-2">
-              <div className="border-2 border-gray-200 px-5 py-5 rounded-lg">
+            <div className="col">
+              <div className="border-2 border-gray-200 py-5 rounded-lg">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -81,8 +81,8 @@ const Stats = () => {
                 <p className="leading-relaxed">Files</p>
               </div>
             </div>
-            <div className="col-md-2">
-              <div className="border-2 border-gray-200 px-5 py-5 rounded-lg">
+            <div className="col">
+              <div className="border-2 border-gray-200  py-5 rounded-lg">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -101,7 +101,7 @@ const Stats = () => {
                 <p className="leading-relaxed">Places</p>
               </div>
             </div>
-          </div> */}
+          </div>
         </div> </div>
       </div>
 
